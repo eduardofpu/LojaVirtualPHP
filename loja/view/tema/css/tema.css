@@ -1,0 +1,143 @@
+/*
+PERSONALIZANDO O BOOTSTRAP
+www.adrianosites.com.br 
+*/
+
+/* CLASSES NOVAS CRIADAS PARA O PROJETO */
+
+#bloco_login_adm{
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 50px;
+}
+#topo{
+
+min-height: 100px;
+background-color: #29a329;
+color: #fff;
+    
+}
+
+#rodape{
+     
+ min-height: 150px;
+ background-color: #29a329;
+color: #fff; 
+    
+}
+
+#conteudo{
+    
+   min-height: 450px; 
+}
+
+#lateral{
+    
+   border-right: 1px solid #adadad;
+   height: 100%;
+  }
+
+  .transparente{
+   opacity: 0.9;   
+      
+  }
+
+
+/* CLASSES OVERRIDE DO BOOTSTRAP para personalização*/
+
+.pagination>li>a{
+    background:#29a329;
+    color:#fff; 
+}
+
+.thumbnail{
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #adadad;
+}
+
+.btn{
+   border-radius: 20px;/*bordas para todos os botões*/     
+}
+
+.preco{
+    
+    color: #c42768;
+    font-weight: bold;
+}
+
+.btn-rosa{
+    color:#FFF;/*cor do texte*/
+    background-color: #c42768;/*cor do botão*/
+    
+    
+}
+
+.btn-rosa:hover{
+    color:#FFF;/*cor do texte*/    
+    background-color: #720633;/*cor do botão*/
+    
+}
+
+.btn-geral{
+    
+   color:#FFF;/*cor do texte*/    
+   background-color: #196619;/*cor do botão*/
+      
+    
+}
+
+.btn-geral:hover{
+    
+    color:#FFF;/*cor do texte*/    
+    background-color: #145214;/*cor do botão*/
+      
+    
+}
+
+/* navbar e menu navbar */
+.navbar-inverse{
+    border-radius: 0;
+    background-color: #0a290a;/*cor do botão*/
+}
+
+
+.navbar-inverse .navbar-nav > li > a{
+    
+  color: #fff;
+  font-size: 16px; 
+  
+    
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    
+ background-color: #000;
+ border-radius: 10px;
+ color: #eb9316;
+    
+}
+
+/* menu lateral com list group*/
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+    
+   background-color: #101010; 
+    
+}
+
+a.list-group-item:hover{
+    
+    background-color: #262626;;
+     color: #FFF;
+     
+    
+}
+
+a.list-group-item{
+  
+    border: 0;
+    font-size: 14px;
+    
+    
+}
+
